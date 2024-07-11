@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Style.css">
+    <title>Today Weather</title>
+</head>
+<body>
+    <div class="container">
+        <div class="inner">
+            <div class="data-get">
+                <input type="text" class="C-name"placeholder= "Enter City">
+                <button class="search"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="data-show">
+                <h3>Weather in <span class="city_name">Lahore</span></h3>
+                <h5 class="temp">00'c</h5>
+                <div class="icon"></div>
+                <p class="description">Fog</p>
+                <p class="wind">Wind Speed <span class="speed">2.3 km/h</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
